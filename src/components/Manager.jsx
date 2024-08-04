@@ -69,10 +69,7 @@ const Manager = () => {
     let c = confirm("Are You Sure?");
     if (c) {
       setPasswordarray(passwordarray.filter((item) => item.id !== id));
-      // localStorage.setItem(
-      //   "passwords",
-      //   JSON.stringify(passwordarray.filter((item) => item.id !== id))
-      // );
+     
       let res = await fetch("http://localhost:3000/", {
         method: "DELETE",
         headers: { "content-type": "application/json" },

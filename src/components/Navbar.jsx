@@ -9,22 +9,10 @@ const Navbar = () => {
           LOCK
           <span className="text-orange-500">BOX/&gt;</span>
         </div>
-        {/* <ul>
-          <li className="flex gap-3">
-            <a className="hover:font-bold" href="/">
-              Home
-            </a>
-            <a className="hover:font-bold" href="/home">
-              About
-            </a>
-            <a className="hover:font-bold" href="/home">
-              Contact
-            </a>
-          </li>
-        </ul> */}
+      
         <button className="text-white bg-orange-600 flex justify-center items-center rounded-full ring-1 ring-white">
          <img  className="invert p-1 w-10" src="/icons/github.svg" alt="" />
-         <span className="font-bold pr-4"> <a href="https://github.com/">Github</a></span>
+         <span className="font-bold pr-4"> <a href="https://github.com/sarthak1656/lockbox-mongo">Github</a></span>
          
         </button>
       </div>
